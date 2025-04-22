@@ -1,0 +1,78 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/4/%%%/4/'%**4YYY///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 336 Control_CMD: 8 Vector__XXX
+ SG_ Override : 0|8@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Alive_Count : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Angular_Speed_CMD : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 338 Driving_CMD: 8 Vector__XXX
+ SG_ Accel_CMD : 0|16@1+ (1,0) [650|3400] "" Vector__XXX
+ SG_ Brake_CMD : 16|16@1+ (1,0) [0|17000] "" Vector__XXX
+ SG_ Steering_CMD : 32|16@1- (1,0) [-520|520] "deg" Vector__XXX
+ SG_ Gear_Shift_CMD : 48|8@1+ (1,0) [0|8] "" Vector__XXX
+
+BO_ 81 Vehicle_info_1: 8 Vector__XXX
+ SG_ APS_Feedback : 0|16@1+ (1,0) [0|3800] "" Vector__XXX
+ SG_ Brake_ACT_Feedback : 16|16@1+ (1,0) [0|35000] "" Vector__XXX
+ SG_ Gear_Shift_Feed : 32|8@1+ (1,0) [0|8] "" Vector__XXX
+ SG_ Steering_angle_Feedback : 40|16@1- (-0.1,0) [-540|540] "" Vector__XXX
+ SG_ Switch_State : 56|8@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 82 Vehicle_info_2: 8 Vector__XXX
+ SG_ APS_Feedback : 0|8@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Vehicle_Speed : 8|16@1+ (0.1,0) [0|255] "km/h" Vector__XXX
+
+BO_ 83 Vehicle_info_3: 8 Vector__XXX
+ SG_ RPM : 0|16@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 84 Vehicle_info_4: 8 Vector__XXX
+ SG_ Wheel_Speed_FL : 0|16@1+ (0.1,0) [0|255] "km/h" Vector__XXX
+ SG_ Wheel_Speed_FR : 16|16@1+ (0.1,0) [0|255] "km/h" Vector__XXX
+ SG_ Wheel_Speed_Rear_RL : 32|16@1+ (0.1,0) [0|255] "km/h" Vector__XXX
+ SG_ Wheel_Speed_Rear_R : 48|16@1+ (0.1,0) [0|255] "km/h" Vector__XXX
+
+
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "";
+BA_ "BusType" "CAN";
+VAL_ 336 Override 0 "Overide_On" 1 "Override_Off" ;
+VAL_ 338 Gear_Shift_CMD 0 "Parking" 5 "Driving" 6 "Neutral" 7 "Reverse" ;
+VAL_ 81 Gear_Shift_Feed 0 "Parking" 5 "Driving" 6 "Neutral" 7 "Reverse" ;
+VAL_ 81 Switch_State 0 "Manual" 1 "E-Stop" 2 "Auto-Standby" 4 "APM" 8 "ASM" 22 "AGM" ;
+VAL_ 82 APS_Feedback 0 "Manual" 1 "Auto" 2 "Steer" 3 "Accel" 4 "Brake" 5 "Sensor" 6 "E-Stop" ;
