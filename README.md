@@ -87,8 +87,8 @@ This research aims to implement a robust lateral control system that overcomes k
 
 ## 🧪 Performance Comparison Table
 
-The following table summarizes and compares the proposed system with other lateral control systems in real-vehicle studies.  
-The final three columns show a **proposed metric**, calculated by dividing each error by the total path length and multiplying by 1000 (dimensionless).
+The following table summarizes and compares the proposed system with other lateral control systems in real-vehicle studies. 
+The final three columns show a **proposed metric**, calculated by dividing each error by the total path length and multiplying by 1000(dimensionless).
 
 | Research article            | Method                | Distance(m) | Max Error(m) | MAE(m)     | RMSE(m)    | Max*       | MAE*      | RMSE*      |
 |-----------------------------|-----------------------|-------------|-----------   |------------|------------|------------|-----------|------------|
