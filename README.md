@@ -45,7 +45,6 @@ This research aims to implement a robust lateral control system that overcomes k
 </p>
 <p align="center"><b>Figure.</b> Satellite View of Target Path 1 (left) and Target Path 2 (right)</p>
 
----
 
 ## 📂 Target Path Data
 
