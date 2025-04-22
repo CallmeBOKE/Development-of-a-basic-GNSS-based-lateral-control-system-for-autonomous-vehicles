@@ -49,15 +49,14 @@ If you use this work, please cite:
   year={2025}
 }
 ```
-🙌 Acknowledgements
+
+## 🙌 Acknowledgements
 This work was supported by:
 
 KIAT, Ministry of Trade, Industry and Energy (Project No. P0020535)
 
 GIST Research Project Grant, 2024
 
-📬 Contact
+## 📬 Contact
 For questions or collaborations, contact:
 Hongseung Kim (hongseung.kim@gist.ac.kr)
-
-
