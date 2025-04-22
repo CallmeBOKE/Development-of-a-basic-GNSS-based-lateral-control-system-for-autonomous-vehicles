@@ -1,0 +1,6 @@
+<launch>
+    <node pkg = "autonomous" type="GNSS_node.py" name="gnss_node"/>
+    <node pkg = "autonomous" type="waypoint_node.py" name="waypoint_node"/>
+    <node pkg = "autonomous" type="stanley_node_pid.py" name="stanley_node" output="screen"/>
+    <node pkg = "autonomous" type="controller_node_pid.py" name="controller_node" output="screen"/>
+</launch>

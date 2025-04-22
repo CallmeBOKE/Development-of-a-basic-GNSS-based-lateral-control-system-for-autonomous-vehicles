@@ -1,0 +1,3 @@
+<launch>
+    <node pkg = "autonomous" type="gt_nod.py"  name="gt_node" output = "screen"/>
+</launch>

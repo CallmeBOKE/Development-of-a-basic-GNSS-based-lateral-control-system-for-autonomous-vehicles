@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = "autonomous" type="record_node.py" name="record_node" output = "screen"/>
+    <node pkg = "autonomous" type="plot_node.py" name="plot_node" output = "screen"/>
+    <node pkg = "autonomous" type="metric_node.py" name="metric_node" output = "screen"/>
+    <node pkg = "autonomous" type="heading_error_node.py" name="heading_error_node" output = "screen"/>
+    <node pkg = "autonomous" type="yawpitchroll_node.py" name="yawpitchroll_node" output = "screen"/>
+</launch>
