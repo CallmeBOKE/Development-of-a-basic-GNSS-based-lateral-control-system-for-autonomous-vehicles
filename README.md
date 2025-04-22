@@ -154,4 +154,4 @@ This work was conducted by Korea Institute for Advancement of Technology (KIAT) 
 ## 📬 Contact
 
 For inquiries or collaboration:  
-**Hongseung Kim** | swat8174m@gm.gist.ac.kr
+**Hongseung Kim** | swat8174@gm.gist.ac.kr
