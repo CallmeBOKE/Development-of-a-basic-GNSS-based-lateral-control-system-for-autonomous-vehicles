@@ -33,6 +33,8 @@ This research aims to implement a robust lateral control system that overcomes k
 
 🚘 Device Specifications
 
+
+|--------------------|---------------------------------|
 | Vehicle model      | Hyundai SantaFe TM              |
 | GNSS               | Novatel PwrPak7D-E1             |
 | GNSS antenna       | Novatel VEXXIS® GNSS-500        |
