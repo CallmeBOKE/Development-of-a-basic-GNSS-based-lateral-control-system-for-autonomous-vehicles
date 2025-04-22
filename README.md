@@ -99,7 +99,7 @@ The final three columns show a **proposed metric**, calculated by dividing each 
 | Andersen et al. (2016)      | Adaptive Pure Pursuit| 1,800 m | 0.2900    | 0.0953  | –       | 0.16   | 0.05   | –      |
 | Liu et al. (2017)           | LQR + PID           | 2,200 m  | –         | –       | –       | –      | –      | –      |
 | **This study**   | Stanley + PID (1)   | 864.0 m  | 0.9296| 0.0786 | 0.1140 | 1.08 | 0.091 | 0.132 |
-| **This study**   | Stanley + PID (2)   | 1,267.2 m| 0.4289    | **0.0427 ** |** 0.0802**  | **0.34**   |** 0.034 ** | **0.063 ** |
+| **This study**   | Stanley + PID (2)   | 1,267.2 m| 0.4289    | **0.0427** |**0.0802**  | **0.34**   |**0.034** | **0.063** |
 
 > 🔹 **Bold** entries highlight the best or most notable performance metrics.  
 > \* Proposed metric = (error ÷ distance) × 1000
