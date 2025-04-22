@@ -11,34 +11,45 @@ This repository accompanies the research titled:
 **"Development of a Basic GNSS-based Lateral Control System for Autonomous Vehicles"**  
 by *Hongseung Kim* and *Yong-Gu Lee* (Under Review - JCDE, 2025).
 
-🚘 **Goal**: To implement a robust lateral control system using GNSS and IMU only enabling path tracking without HD map data, in real-world driving environments.
+🚘 **Goal**: To implement a robust lateral control system using GNSS and IMU only —  
+enabling path tracking without HD map data, in real-world driving environments.
 
 ---
 
 ## 🎥 Driving Demo
 
-[![Watch the driving video](https://img.youtube.com/vi/ewxYHlESX0o/0.jpg)](https://youtu.be/ewxYHlESX0o)
+<p align="center">
+  <a href="https://youtu.be/ewxYHlESX0o">
+    <img src="https://img.youtube.com/vi/ewxYHlESX0o/0.jpg" alt="Driving video thumbnail" width="60%">
+  </a>
+</p>
 
 ---
 
 ## 🖼️ System Architecture
 
 ### 📍 Sensor & Module Configuration  
-![System Diagram](fig/system_diagram.png)
+<p align="center"><img src="fig/system_diagram.png" width="80%"></p>
 
 ### ⚙️ Overall System Flow  
-![Overall System Flow](fig/overall_system_diagram.png)
+<p align="center"><img src="fig/overall_system_diagram.png" width="80%"></p>
 
 ---
 
 ## 🗺️ Driving Routes (Satellite View)
 
-### Target Path 1                                                                          Target Path 2  
-![Target Path 2 - Satellite](fig/target_path2_map.png)                                     ![Target Path 1 - Satellite](fig/target_path1_map.png)
- 
+<p align="center">
+  <img src="fig/target_path1_map.png" width="45%" alt="Target Path 1 Map"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="fig/target_path2_map.png" width="45%" alt="Target Path 2 Map"/>
+</p>
+<p align="center"><b>Figure.</b> Satellite View of Target Path 1 (left) and Target Path 2 (right)</p>
+
 ---
 
 ## 📊 Path Tracking Performance Summary
+
+<p align="center">
 
 | Metric              | Target Path 1 | Target Path 2 |
 |---------------------|---------------|---------------|
@@ -46,29 +57,31 @@ by *Hongseung Kim* and *Yong-Gu Lee* (Under Review - JCDE, 2025).
 | RMSE (m)            | 0.1140        | 0.0802        |
 | Avg Heading Error ° | 2.1411°       | 2.5000°       |
 
+</p>
+
 ---
 
 ## 📈 Path Visualization and Evaluation
 
 ### Target Path 1  
 - Trajectory  
-  ![Trajectory Path 1](fig/trajectory_path1.png)  
+  <p align="center"><img src="fig/trajectory_path1.png" width="80%"></p>  
 - Waypoint Heading  
-  ![Heading Path 1](fig/heading_path1.png)  
+  <p align="center"><img src="fig/heading_path1.png" width="80%"></p>  
 - Cross-Track Error  
-  ![CTE Path 1](fig/cte_path1.png)  
+  <p align="center"><img src="fig/cte_path1.png" width="80%"></p>  
 - Posterior vs Desired Heading  
-  ![Heading Compare 1](fig/heading_compare1.png)
+  <p align="center"><img src="fig/heading_compare1.png" width="80%"></p>
 
 ### Target Path 2  
 - Trajectory  
-  ![Trajectory Path 2](fig/trajectory_path2.png)  
+  <p align="center"><img src="fig/trajectory_path2.png" width="80%"></p>  
 - Waypoint Heading  
-  ![Heading Path 2](fig/heading_path2.png)  
+  <p align="center"><img src="fig/heading_path2.png" width="80%"></p>  
 - Cross-Track Error  
-  ![CTE Path 2](fig/cte_path2.png)  
+  <p align="center"><img src="fig/cte_path2.png" width="80%"></p>  
 - Posterior vs Desired Heading  
-  ![Heading Compare 2](fig/heading_compare2.png)
+  <p align="center"><img src="fig/heading_compare2.png" width="80%"></p>
 
 ---
 
@@ -95,7 +108,7 @@ A dimensionless normalized metric is introduced for fair evaluation across varie
 
 ## 📂 Target Path Data
 
-The following CSV datasets contain the path coordinates and heading information used in this study:
+<p align="center"><b>CSV Format Specification</b></p>
 
 | Column | Description                                  |
 |--------|----------------------------------------------|
@@ -103,10 +116,14 @@ The following CSV datasets contain the path coordinates and heading information 
 | 2      | UTM Y coordinate (northing, in meters)       |
 | 3      | Heading angle (°), calculated from waypoints |
 
-- 📥 [Download Target Path 1 CSV](data/target_path1.csv)
-- 📥 [Download Target Path 2 CSV](data/target_path2.csv)
+<p align="center"><b>📥 Download</b></p>
 
-These datasets were generated from real vehicle driving logs on the GIST campus.
+<p align="center">
+  <a href="data/target_path1.csv">Target Path 1 CSV</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="data/target_path2.csv">Target Path 2 CSV</a>
+</p>
+
+<p align="center"><i>Collected from real vehicle driving experiments on GIST campus.</i></p>
 
 ---
 
