@@ -1,6 +1,6 @@
-#  GNSS-based Lateral Control System for Autonomous Vehicles
+#  Development of a Basic GNSS-based Lateral Control System for Autonomous Vehicles
 
-*A GNSS based control system for real time path tracking and steering control of autonomous vehicles in real world environments*
+*A GNSS based control system for real time path tracking and steering control of autonomous vehicles.*
 
 ---
 
