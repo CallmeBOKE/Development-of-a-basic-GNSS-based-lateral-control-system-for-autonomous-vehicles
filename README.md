@@ -36,7 +36,7 @@ This research aims to implement a robust lateral control system that overcomes k
 
 ---
 
-## 🗺️ Driving Routes (Satellite View)
+## 🗺️ Target paths (Satellite View)
 
 <p align="center">
   <img src="fig/target_path1_map.png" width="45%" alt="Target Path 1 Map"/>
@@ -44,6 +44,27 @@ This research aims to implement a robust lateral control system that overcomes k
   <img src="fig/target_path2_map.png" width="45%" alt="Target Path 2 Map"/>
 </p>
 <p align="center"><b>Figure.</b> Satellite View of Target Path 1 (left) and Target Path 2 (right)</p>
+
+---
+
+## 📂 Target Path Data
+
+<p align="left"><b>CSV Format Specification</b></p>
+
+| Column | Description                                  |
+|--------|----------------------------------------------|
+| 1      | UTM X coordinate (easting, in meters)        |
+| 2      | UTM Y coordinate (northing, in meters)       |
+| 3      | Heading angle (°), calculated from waypoints |
+
+<p align="center"><b>📥 Download</b></p>
+
+<p align="center">
+  <a href="data/target_path1.csv">Target Path 1 CSV</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="data/target_path2.csv">Target Path 2 CSV</a>
+</p>
+
+
 
 ---
 
@@ -61,7 +82,7 @@ This research aims to implement a robust lateral control system that overcomes k
 
 ---
 
-## 📈 Path Visualization and Evaluation
+## 📈 Experiment Results
 
 ### Target Path 1  
 - Trajectory  
@@ -85,7 +106,7 @@ This research aims to implement a robust lateral control system that overcomes k
 
 ---
 
-## 🧪 Performance Comparison Table
+## 🧪 Performance Comparison
 
 The following table summarizes and compares the proposed system with other lateral control systems in real-vehicle studies. 
 The final three columns show a **proposed metric**, calculated by dividing each error by the total path length and multiplying by 1000(dimensionless).
@@ -105,27 +126,6 @@ The final three columns show a **proposed metric**, calculated by dividing each 
 
 > 🔹 **Bold** entries highlight the best or most notable performance metrics.  
 > \* Proposed metric = (error ÷ distance) × 1000
-
----
-
-## 📂 Target Path Data
-
-<p align="left"><b>CSV Format Specification</b></p>
-
-| Column | Description                                  |
-|--------|----------------------------------------------|
-| 1      | UTM X coordinate (easting, in meters)        |
-| 2      | UTM Y coordinate (northing, in meters)       |
-| 3      | Heading angle (°), calculated from waypoints |
-
-<p align="center"><b>📥 Download</b></p>
-
-<p align="center">
-  <a href="data/target_path1.csv">Target Path 1 CSV</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="data/target_path2.csv">Target Path 2 CSV</a>
-</p>
-
-<p align="center"><i>Collected from real vehicle driving experiments on GIST campus.</i></p>
 
 ---
 
