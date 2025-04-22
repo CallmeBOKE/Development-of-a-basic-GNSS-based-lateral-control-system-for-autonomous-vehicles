@@ -50,7 +50,7 @@ enabling path tracking without HD map data, in real-world driving environments.
 ## 📊 Path Tracking Performance Summary
 
 <p align="center">
-  
+
 | Metric              | Target Path 1 | Target Path 2 |
 |---------------------|---------------|---------------|
 | MAE (m)             | 0.0786        | 0.0427        |
@@ -85,21 +85,21 @@ enabling path tracking without HD map data, in real-world driving environments.
 
 ---
 
-## 🧪 Comparative Performance Table
+## 🧪 Performance Comparison Table (As in Thesis)
 
 The following table compares the proposed system with other lateral control systems evaluated in real-vehicle experiments.  
 A dimensionless normalized metric is introduced for fair evaluation across varied travel distances.
 
-| Method              | Reference                     | Total Distance | Max Error (m) | MAE (m)  | RMSE (m) | Max/km | MAE/km | RMSE/km |
-|---------------------|-------------------------------|----------------|---------------|----------|----------|--------|--------|---------|
-| Pure Pursuit        | Dominguez et al. (2021)       | 1,000m         | 0.3600        | –        | –        | 0.3600 | –      | –       |
-| Stanley             | Park et al. (2014)            | 1,400m         | 0.4000        | –        | –        | 0.2857 | –      | –       |
-| Sliding Mode Ctrl   | Hossain et al. (2022)         | 4,200m         | 0.4000        | –        | –        | 0.0952 | –      | –       |
-| LatVel              | Baksaas et al. (2021)         | 700m           | 0.3000        | –        | –        | 0.4286 | –      | –       |
-| Adaptive PP         | Andersen et al. (2016)        | 1,800m         | 0.2900        | 0.0953   | –        | 0.1611 | 0.0529 | –       |
-| LQR + PID           | Liu et al. (2017)             | 2,200m         | –             | –        | –        | –      | –      | –       |
-| Stanley + PID (1)   | **This Study – Target Path 1**| 864.0m         | **0.9296**    | **0.0786** | **0.1140** | **1.0755** | **0.0909** | **0.1320** |
-| Stanley + PID (2)   | **This Study – Target Path 2**| 1,267.2m       | 0.4289        | 0.0427   | 0.0802   | 0.3384 | 0.0337 | 0.0633 |
+| Method                | Study                         | Distance | Max Error | MAE     | RMSE    | Max/km | MAE/km | RMSE/km |
+|---------------------|-------------------------------|----------|-----------|---------|---------|--------|--------|---------|
+| Pure Pursuit         | Dominguez et al. (2021)       | 1,000 m  | 0.36      | –       | –       | 0.36   | –      | –       |
+| Stanley              | Park et al. (2014)            | 1,400 m  | 0.40      | –       | –       | 0.29   | –      | –       |
+| Sliding Mode Control | Hossain et al. (2022)         | 4,200 m  | 0.40      | –       | –       | 0.10   | –      | –       |
+| LatVel               | Baksaas et al. (2021)         | 700 m    | 0.30      | –       | –       | 0.43   | –      | –       |
+| Adaptive Pure Pursuit| Andersen et al. (2016)        | 1,800 m  | 0.29      | 0.0953  | –       | 0.16   | 0.05   | –       |
+| LQR + PID            | Liu et al. (2017)             | 2,200 m  | –         | –       | –       | –      | –      | –       |
+| Stanley + PID (1)    | **This Study – Path 1**       | 864.0 m  | **0.9296**| **0.0786** | **0.1140** | **1.08** | **0.091** | **0.132** |
+| Stanley + PID (2)    | **This Study – Path 2**       | 1,267.2 m| 0.4289    | 0.0427  | 0.0802  | 0.34   | 0.034  | 0.063  |
 
 > 🔹 **Bold** entries highlight the best or most notable performance metrics.  
 > 🔸 Normalized = (error ÷ distance) × 1,000
