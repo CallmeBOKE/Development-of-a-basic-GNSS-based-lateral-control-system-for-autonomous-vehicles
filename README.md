@@ -48,7 +48,7 @@ If you use this work, please cite:
   journal={Journal of Computational Design and Engineering},
   year={2025}
 }
-
+```
 🙌 Acknowledgements
 This work was supported by:
 
