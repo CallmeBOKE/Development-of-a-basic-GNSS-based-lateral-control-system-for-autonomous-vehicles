@@ -142,12 +142,10 @@ The final three columns show a **proposed metric**, calculated by dividing each 
 
 ## 🙌 Acknowledgements
 
-- Korea Institute for Advancement of Technology (KIAT), MOTIE [P0020535]  
-- GIST Research Project Grant (2024)
-
+This work was conducted by Korea Institute for Advancement of Technology (KIAT) grant funded by the Korea Government(MOTIE; P0020535, The Competency Development Program for Industry Specialist), and GIST Research Project grant funded by the GIST in 2024.
 ---
 
 ## 📬 Contact
 
 For inquiries or collaboration:  
-**Hongseung Kim** | hongseung.kim@gist.ac.kr
+**Hongseung Kim** | swat8174m@gm.gist.ac.kr
