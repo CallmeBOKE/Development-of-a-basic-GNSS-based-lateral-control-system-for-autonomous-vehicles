@@ -28,7 +28,7 @@ enabling path tracking without HD map data, in real-world driving environments.
 
 ## 🎥 Driving Demo
 
-![Driving demo](fig/driving_demo.gif)
+[![Watch the driving video](https://img.youtube.com/vi/ewxYHlESX0o/0.jpg)](https://youtu.be/ewxYHlESX0o)
 
 ---
 
