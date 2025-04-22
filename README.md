@@ -54,29 +54,13 @@ This research aims to implement a robust lateral control system that overcomes k
 |--------|----------------------------------------------|
 | 1      | UTM X coordinate (easting, in meters)        |
 | 2      | UTM Y coordinate (northing, in meters)       |
-| 3      | Heading angle (°), calculated from waypoints |
+| 3      | Heading angle (°)                            |
 
 <p align="center"><b>📥 Download</b></p>
 
 <p align="center">
   <a href="data/target_path1.csv">Target Path 1 CSV</a> &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="data/target_path2.csv">Target Path 2 CSV</a>
-</p>
-
-
-
----
-
-## 📊 Path Tracking Performance Summary
-
-<p align="center">
-
-| Metric              | Target Path 1 | Target Path 2 |
-|---------------------|---------------|---------------|
-| MAE (m)             | 0.0786        | 0.0427        |
-| RMSE (m)            | 0.1140        | 0.0802        |
-| Avg Heading Error ° | 2.1411°       | 2.5000°       |
-
 </p>
 
 ---
@@ -104,6 +88,17 @@ This research aims to implement a robust lateral control system that overcomes k
   <p align="center"><img src="fig/heading_compare2.png" width="80%"></p>
 
 ---
+## 📊 Path Tracking Performance Summary
+
+<p align="center">
+
+| Metric              | Target Path 1 | Target Path 2 |
+|---------------------|---------------|---------------|
+| MAE (m)             | 0.0786        | 0.0427        |
+| RMSE (m)            | 0.1140        | 0.0802        |
+| Avg Heading Error ° | 2.1411°       | 2.5000°       |
+
+</p>
 
 ## 🧪 Performance Comparison
 
