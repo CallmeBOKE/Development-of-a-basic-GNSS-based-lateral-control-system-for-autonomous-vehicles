@@ -147,6 +147,7 @@ The final three columns show a **proposed metric**, calculated by dividing each 
 ## 🙌 Acknowledgements
 
 This work was conducted by Korea Institute for Advancement of Technology (KIAT) grant funded by the Korea Government(MOTIE; P0020535, The Competency Development Program for Industry Specialist), and GIST Research Project grant funded by the GIST in 2024.
+
 ---
 
 ## 📬 Contact
