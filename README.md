@@ -1,45 +1,71 @@
 # 🚗 GNSS-based Lateral Control System for Autonomous Vehicles
 
-[![DOI](https://img.shields.io/badge/JCDE--2025--Kim-blue)](https://your-link.com)  
+[![Status](https://img.shields.io/badge/Under--Review--JCDE-orange)]()  
 *A foundational system for GNSS+IMU based path tracking & steering control in real environments*
+
+---
 
 ## 📌 Overview
 
-This repository accompanies the research paper:  
+This repository accompanies the research titled:  
 **"Development of a Basic GNSS-based Lateral Control System for Autonomous Vehicles"**  
-by *Hongseung Kim* and *Yong-Gu Lee*, published in JCDE.
+by *Hongseung Kim* and *Yong-Gu Lee* (Under Review - JCDE, 2025).
 
-🚘 **Goal**: To develop a lightweight, three-stage lateral control system using only GNSS and IMU sensors for path tracking in autonomous vehicles — without relying on predefined path coordinates or expensive sensor suites.
+🚘 **Goal**: To implement a robust lateral control system using GNSS and IMU only —  
+enabling path tracking without HD map data, in real-world driving environments.
+
+---
 
 ## 🧭 Key Features
 
-- **RTK-corrected GNSS + IMU positioning**
-- **On-the-fly path data acquisition** from raw GNSS logs
-- **Stanley method** for geometric path tracking
-- **PID control** for real-time steering adjustments
-- **Field-tested** on campus roads with up to 6,336 waypoints
+- RTK-GNSS + IMU positioning with heading estimation
+- Path coordinate collection in unstructured environments
+- Stanley method for path tracking
+- PID controller for steering angle refinement
+- Real-vehicle testing on GIST campus
 
-## 📊 Performance Highlights
+---
 
-| Metric              | Path 1        | Path 2        |
-|---------------------|---------------|---------------|
-| MAE (m)             | 0.0786        | 0.0427        |
-| RMSE (m)            | 0.1140        | 0.0802        |
-| Avg Heading Error ° | 2.1411°       | 2.5000°       |
+## 🎥 Driving Demo
 
-🛣️ **Real-world tested** on GIST campus roads with accurate performance metrics including lane validation and cornering behavior.
+![Driving demo](fig/driving_demo.gif)
 
-## 📂 Repository Structure
-📁 data/ → Raw & processed GNSS path coordinates
-📁 src/ → ROS-compatible Python modules (GNSS → Control)
-📁 figures/ → Visualized results (Trajectory, Error, Heading)
-📄 README.md → You are here
-📄 paper.pdf → Full-text paper (to be uploaded)
+---
 
+## 🖼️ System Architecture
 
+### 📍 Sensor & Module Configuration
+
+![System Diagram](fig/system_diagram.png)
+
+### ⚙️ Overall System Flow
+
+![Overall System Flow](fig/overall_system_diagram.png)
+
+---
+
+## 📈 Performance Evaluation
+
+### ➤ Absolute CTE – Target Path 1  
+![CTE Path 1](fig/cte_error_path1.png)
+
+### ➤ Absolute CTE – Target Path 2  
+![CTE Path 2](fig/cte_error_path2.png)
+
+---
+
+## 📂 Folder Structure
+
+```
+📁 fig/               → Images and plots for README  
+📄 README.md          → This file  
+📄 paper.pdf          → (To be uploaded after acceptance)  
+```
+
+---
+
+<!--
 ## 📖 Citation
-
-If you use this work, please cite:
 
 ```bibtex
 @article{kim2025gnss,
@@ -49,14 +75,20 @@ If you use this work, please cite:
   year={2025}
 }
 ```
+-->
+
+📝 *Citation info will be added after publication.*
+
+---
 
 ## 🙌 Acknowledgements
-This work was supported by:
 
-KIAT, Ministry of Trade, Industry and Energy (Project No. P0020535)
+- Korea Institute for Advancement of Technology (KIAT), MOTIE [P0020535]  
+- GIST Research Project Grant (2024)
 
-GIST Research Project Grant, 2024
+---
 
 ## 📬 Contact
-For questions or collaborations, contact:
-Hongseung Kim (hongseung.kim@gist.ac.kr)
+
+For inquiries or collaboration:  
+**Hongseung Kim** | hongseung.kim@gist.ac.kr
