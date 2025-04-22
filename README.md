@@ -28,7 +28,7 @@ This research aims to implement a robust lateral control system that overcomes k
 
 ## 🖼️ System Architecture
 
-### 📍 Sensor & Module Configuration  
+### 📍 Configuration of onboard sensors and control modules 
 <p align="center"><img src="fig/system_diagram.png" width="80%"></p>
 
 ### ⚙️ Overall System Flow  
@@ -68,7 +68,7 @@ This research aims to implement a robust lateral control system that overcomes k
   <p align="center"><img src="fig/trajectory_path1.png" width="80%"></p>  
 - Waypoint Heading  
   <p align="center"><img src="fig/heading_path1.png" width="80%"></p>  
-- Cross-Track Error  
+- Absolute Cross Track Error  
   <p align="center"><img src="fig/cte_path1.png" width="80%"></p>  
 - Posterior vs Desired Heading  
   <p align="center"><img src="fig/heading_compare1.png" width="80%"></p>
@@ -78,7 +78,7 @@ This research aims to implement a robust lateral control system that overcomes k
   <p align="center"><img src="fig/trajectory_path2.png" width="80%"></p>  
 - Waypoint Heading  
   <p align="center"><img src="fig/heading_path2.png" width="80%"></p>  
-- Cross-Track Error  
+- Absolute Cross Track Error  
   <p align="center"><img src="fig/cte_path2.png" width="80%"></p>  
 - Posterior vs Desired Heading  
   <p align="center"><img src="fig/heading_compare2.png" width="80%"></p>
