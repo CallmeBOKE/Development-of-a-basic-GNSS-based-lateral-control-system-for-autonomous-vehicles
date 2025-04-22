@@ -85,7 +85,24 @@ enabling path tracking without HD map data, in real-world driving environments.
 
 ---
 
-## 🧪 Performance Comparison Table (As in Thesis)
+## 🧪 Performance Comparison Table
+
+The following table summarizes and compares the proposed system with other lateral control systems in real-vehicle studies.  
+The final three columns show a **proposed metric**, calculated by dividing each error by the total path length and multiplying by 1000 (dimensionless).
+
+| Study                        | Method              | Distance | Max Error | MAE     | RMSE    | Max*   | MAE*   | RMSE*  |
+|-----------------------------|---------------------|----------|-----------|---------|---------|--------|--------|--------|
+| Dominguez et al. (2021)     | Pure Pursuit        | 1,000 m  | 0.3600    | –       | –       | 0.36   | –      | –      |
+| Park et al. (2014)          | Stanley             | 1,400 m  | 0.4000    | –       | –       | 0.29   | –      | –      |
+| Hossain et al. (2022)       | Sliding Mode Control| 4,200 m  | 0.4000    | –       | –       | 0.10   | –      | –      |
+| Baksaas et al. (2021)       | LatVel              | 700 m    | 0.3000    | –       | –       | 0.43   | –      | –      |
+| Andersen et al. (2016)      | Adaptive Pure Pursuit| 1,800 m | 0.2900    | 0.0953  | –       | 0.16   | 0.05   | –      |
+| Liu et al. (2017)           | LQR + PID           | 2,200 m  | –         | –       | –       | –      | –      | –      |
+| **This research article**   | Stanley + PID (1)   | 864.0 m  | **0.9296**| **0.0786** | **0.1140** | **1.08** | **0.091** | **0.132** |
+| **This research article**   | Stanley + PID (2)   | 1,267.2 m| 0.4289    | 0.0427  | 0.0802  | 0.34   | 0.034  | 0.063  |
+
+> \* Proposed metric = (error ÷ distance) × 1000
+
 
 The following table compares the proposed system with other lateral control systems evaluated in real-vehicle experiments.  
 A dimensionless normalized metric is introduced for fair evaluation across varied travel distances.
