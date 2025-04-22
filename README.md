@@ -33,8 +33,9 @@ This research aims to implement a robust lateral control system that overcomes k
 
 🚘 Device specifications
 
+| Device             | Specification                   |
+|--------------------|---------------------------------|
 | Vehicle model      | Hyundai SantaFe TM              |
-|--------------------|----------------------------------|
 | GNSS               | Novatel PwrPak7D-E1             |
 | GNSS antenna       | Novatel VEXXIS® GNSS-500        |
 | IMU                | Epson G320N                     |
@@ -55,6 +56,16 @@ This research aims to implement a robust lateral control system that overcomes k
   <img src="fig/target_path2_map.png" width="45%" alt="Target Path 2 Map"/>
 </p>
 <p align="center"><b>Figure.</b> Satellite View of Target Path 1 (left) and Target Path 2 (right)</p>
+
+## 🧭 Overview of target paths
+
+|                      | Target path 1 | Target path 2 |
+|----------------------|----------------|----------------|
+| Total waypoints      | 4,864          | 6,336          |
+| Straight sections    | 5              | 8              |
+| Turning sections     | 7              | 9              |
+| Continuous turns     | 1              | 1              |
+
 
 
 ## 📂 Target Path Data
