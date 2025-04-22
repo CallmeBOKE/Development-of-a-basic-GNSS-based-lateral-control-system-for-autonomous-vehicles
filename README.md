@@ -1,16 +1,14 @@
-# 🚗 GNSS-based Lateral Control System for Autonomous Vehicles
+#  GNSS-based Lateral Control System for Autonomous Vehicles
 
-[![Status](https://img.shields.io/badge/Under--Review--JCDE-orange)]()  
-*A foundational system for GNSS+IMU based path tracking & steering control in real environments*
+*A GNSS based control system for real time path tracking and steering control of autonomous vehicles in real world environments*
 
 ---
 
 ## 📌 Overview
 
 This repository accompanies the research titled:  
-**"Development of a Basic GNSS-based Lateral Control System for Autonomous Vehicles"**  by *Hongseung Kim* and *Yong-Gu Lee* (Under Review - JCDE, 2025).
-
-🚘 **Goal**: To implement a robust lateral control system using GNSS and IMU only enabling path tracking without HD map data, in real-world driving environments.
+**"Development of a basic GNSS-based lateral control system for autonomous vehicles"**  by *Hongseung Kim* and *Yong-Gu Lee*
+🚘 **Goal**: This research aims to implement a robust lateral control system that overcomes key limitations such as the absence of path coordinate data and the use of minimal sensor configurations, relying solely on GNSS and IMU.
 
 ---
 
