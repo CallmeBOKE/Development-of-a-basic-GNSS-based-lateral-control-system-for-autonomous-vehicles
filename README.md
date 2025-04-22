@@ -12,7 +12,7 @@ This repository accompanies the research titled :
 
 🚘 **Goal**: 
 
-This research aims to implement a robust lateral control system that overcomes key limitations such as the absence of path coordinate data and the use of minimal sensor configurations, relying solely on GNSS and IMU.
+This research aims to implement a robust lateral control system that overcomes key limitations such as the absence of path coordinate data and the use of minimal sensor configurations relying solely on GNSS and IMU.
 
 ---
 
@@ -90,16 +90,18 @@ This research aims to implement a robust lateral control system that overcomes k
 The following table summarizes and compares the proposed system with other lateral control systems in real-vehicle studies.  
 The final three columns show a **proposed metric**, calculated by dividing each error by the total path length and multiplying by 1000 (dimensionless).
 
-| Research article            | Method              | Distance | Max Error | MAE     | RMSE    | Max*   | MAE*   | RMSE*  |
-|-----------------------------|---------------------|----------|-----------|---------|---------|--------|--------|--------|
-| Dominguez et al. (2021)     | Pure Pursuit        | 1,000 m  | 0.3600    | –       | –       | 0.36   | –      | –      |
-| Park et al. (2014)          | Stanley             | 1,400 m  | 0.4000    | –       | –       | 0.29   | –      | –      |
-| Hossain et al. (2022)       | Sliding Mode Control| 4,200 m  | 0.4000    | –       | –       | 0.10   | –      | –      |
-| Baksaas et al. (2021)       | LatVel              | 700 m    | **0.3000 **   | –       | –       | 0.43   | –      | –      |
-| Andersen et al. (2016)      | Adaptive Pure Pursuit| 1,800 m | 0.2900    | 0.0953  | –       | 0.16   | 0.05   | –      |
-| Liu et al. (2017)           | LQR + PID           | 2,200 m  | –         | –       | –       | –      | –      | –      |
-| **This study**   | Stanley + PID (1)   | 864.0 m  | 0.9296| 0.0786 | 0.1140 | 1.08 | 0.091 | 0.132 |
-| **This study**   | Stanley + PID (2)   | 1,267.2 m| 0.4289    | **0.0427** |**0.0802**  | **0.34**   |**0.034** | **0.063** |
+| Research article            | Method                | Distance(m) | Max Error(m) | MAE(m)     | RMSE(m)    | Max*       | MAE*      | RMSE*      |
+|-----------------------------|-----------------------|-------------|-----------   |------------|------------|------------|-----------|------------|
+| Dominguez et al. (2021)     | Pure Pursuit          | 1,000       | 0.3600       | –          | –          | 0.3600     | –         | –          |
+| Dominguez et al. (2021)     | Stanley Method        | 1,000       | 0.4000       | –          | –          | 0.4000     | –         | –          |
+| Dominguez et al. (2021)     | Sliding Mode Control  | 1,000       | 0.4000       | –          | –          | 0.4000     | –         | –          |
+| Dominguez et al. (2021)     | LatVel                | 1,000       | **0.3000**   | –          | –          | 0.3000     | –         | –          |
+| Park et al. (2014)          | Adaptive Pure Pursuit | 1,400       | 0.4000       | –          | –          | 0.2857     | –         | –          |
+| Hossain et al. (2022)       | LQR+PID               | **4,200**   | –            | 0.0953     | –          | –          | 0.0226    | –          |
+| Baksaas et al. (2021)       | LatVel                | 700         | –            | –          | 0.1630     | –          | –         | 0.2329     |
+| Baksaas et al. (2021)       | LatVel                | 700         | –            | –          | 0.2730     | –          | –         | 0.3900     |
+| **This study**              | Stanley + PID (1)     | 1,800       | -0.9296      | 0.0786     | 0.1140     | 0.5160     | 0.0436    | 0.6333     |
+| **This study**              | Stanley + PID (2)     | 2,200       | 0.4289       | **0.0427** |**0.0802**  | **0.1950** |**0.0194** | **0.0365** |
 
 > 🔹 **Bold** entries highlight the best or most notable performance metrics.  
 > \* Proposed metric = (error ÷ distance) × 1000
