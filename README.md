@@ -50,11 +50,13 @@ enabling path tracking without HD map data, in real-world driving environments.
 ## 📊 Path Tracking Performance Summary
 
 <p align="center">
+  
 | Metric              | Target Path 1 | Target Path 2 |
 |---------------------|---------------|---------------|
 | MAE (m)             | 0.0786        | 0.0427        |
 | RMSE (m)            | 0.1140        | 0.0802        |
 | Avg Heading Error ° | 2.1411°       | 2.5000°       |
+
 </p>
 
 ---
