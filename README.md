@@ -11,8 +11,7 @@ This repository accompanies the research titled:
 **"Development of a Basic GNSS-based Lateral Control System for Autonomous Vehicles"**  
 by *Hongseung Kim* and *Yong-Gu Lee* (Under Review - JCDE, 2025).
 
-🚘 **Goal**: To implement a robust lateral control system using GNSS and IMU only —  
-enabling path tracking without HD map data, in real-world driving environments.
+🚘 **Goal**: To implement a robust lateral control system using GNSS and IMU only enabling path tracking without HD map data, in real-world driving environments.
 
 ---
 
@@ -34,11 +33,8 @@ enabling path tracking without HD map data, in real-world driving environments.
 
 ## 🗺️ Driving Routes (Satellite View)
 
-### Target Path 1  
-![Target Path 1 - Satellite](fig/target_path1_map.png)
-
-### Target Path 2  
-![Target Path 2 - Satellite](fig/target_path2_map.png)
+### Target Path 1                                            ### Target Path 2  
+![Target Path 2 - Satellite](fig/target_path2_map.png)       ![Target Path 1 - Satellite](fig/target_path1_map.png)
 
 ---
 
