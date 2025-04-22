@@ -30,4 +30,34 @@ by *Hongseung Kim* and *Yong-Gu Lee*, published in JCDE.
 🛣️ **Real-world tested** on GIST campus roads with accurate performance metrics including lane validation and cornering behavior.
 
 ## 📂 Repository Structure
+📁 data/ → Raw & processed GNSS path coordinates
+📁 src/ → ROS-compatible Python modules (GNSS → Control)
+📁 figures/ → Visualized results (Trajectory, Error, Heading)
+📄 README.md → You are here
+📄 paper.pdf → Full-text paper (to be uploaded)
+
+
+## 📖 Citation
+
+If you use this work, please cite:
+
+```bibtex
+@article{kim2025gnss,
+  title={Development of a Basic GNSS-based Lateral Control System for Autonomous Vehicles},
+  author={Kim, Hongseung and Lee, Yong-Gu},
+  journal={Journal of Computational Design and Engineering},
+  year={2025}
+}
+
+🙌 Acknowledgements
+This work was supported by:
+
+KIAT, Ministry of Trade, Industry and Energy (Project No. P0020535)
+
+GIST Research Project Grant, 2024
+
+📬 Contact
+For questions or collaborations, contact:
+Hongseung Kim (hongseung.kim@gist.ac.kr)
+
 
