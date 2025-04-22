@@ -31,15 +31,15 @@ This research aims to implement a robust lateral control system that overcomes k
 ### 📍 Configuration of onboard sensors and control modules 
 <p align="center"><img src="fig/system_diagram.png" width="80%"></p>
 
-🚘 Device Specifications
+🚘 Device specifications
 
-
-|--------------------|---------------------------------|
 | Vehicle model      | Hyundai SantaFe TM              |
+|--------------------|----------------------------------|
 | GNSS               | Novatel PwrPak7D-E1             |
 | GNSS antenna       | Novatel VEXXIS® GNSS-500        |
 | IMU                | Epson G320N                     |
 | Embedded board     | NVIDIA Drive AGX Xavier         |
+
 
 
 ### ⚙️ Overall System Flow  
