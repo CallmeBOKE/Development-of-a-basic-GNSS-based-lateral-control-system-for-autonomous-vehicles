@@ -64,7 +64,7 @@ This research aims to implement a robust lateral control system that overcomes k
 | Total waypoints      | 4,864          | 6,336          |
 | Straight sections    | 5              | 8              |
 | Turning sections     | 7              | 9              |
-| Continuous turns     | 1              | 1              |
+| Continuous turns     | 1                             |
 
 
 
