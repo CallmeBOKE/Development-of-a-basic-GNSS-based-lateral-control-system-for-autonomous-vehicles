@@ -33,9 +33,9 @@ by *Hongseung Kim* and *Yong-Gu Lee* (Under Review - JCDE, 2025).
 
 ## 🗺️ Driving Routes (Satellite View)
 
-### Target Path 1                                            ### Target Path 2  
-![Target Path 2 - Satellite](fig/target_path2_map.png)       ![Target Path 1 - Satellite](fig/target_path1_map.png)
-
+### Target Path 1                                                                          Target Path 2  
+![Target Path 2 - Satellite](fig/target_path2_map.png)                                     ![Target Path 1 - Satellite](fig/target_path1_map.png)
+ 
 ---
 
 ## 📊 Path Tracking Performance Summary
