@@ -6,9 +6,13 @@
 
 ## 📌 Overview
 
-This repository accompanies the research titled:  
+This repository accompanies the research titled :
+
 **"Development of a basic GNSS-based lateral control system for autonomous vehicles"**  by *Hongseung Kim* and *Yong-Gu Lee*
-🚘 **Goal**: This research aims to implement a robust lateral control system that overcomes key limitations such as the absence of path coordinate data and the use of minimal sensor configurations, relying solely on GNSS and IMU.
+
+🚘 **Goal**: 
+
+This research aims to implement a robust lateral control system that overcomes key limitations such as the absence of path coordinate data and the use of minimal sensor configurations, relying solely on GNSS and IMU.
 
 ---
 
